@@ -26,6 +26,7 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         fontFamily: 'Inter_400Regular',
         backgroundColor: '#262626',
+        color: '#F2F2F2',
         marginRight: 4,
         borderRadius: 6
     },
@@ -33,7 +34,9 @@ export const styles = StyleSheet.create({
         height: 52,
         width: 52,
         borderRadius: 6,
-        backgroundColor: '#1E6F9F'
+        backgroundColor: '#1E6F9F',
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     countList: {
         flexDirection: 'row',

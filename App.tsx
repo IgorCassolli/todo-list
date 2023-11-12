@@ -1,5 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import { Home } from './src/Screens/Home';
+import { StatusBar } from 'react-native';
+import { Home } from './src/screens/Home';
 
 import { 
   useFonts, 
@@ -19,6 +19,15 @@ export default function App() {
   }
 
   return (
-    <Home />
+    <>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+        
+      />
+      <Home />
+    </>
+    
   );
 }
